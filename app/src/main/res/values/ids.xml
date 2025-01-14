@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main2" type="id" />
+    <item name="Registerrview" type="id" />
+    <item name="strated" type="id" />
+    <item name="free" type="id" />
+    <item name="fulln" type="id" />
+    <item name="valid_passw" type="id" />
+    <item name="phone_num" type="id" />
+    <item name="strpasswd" type="id" />
+    <item name="checking" type="id" />
+    <item name="logg" type="id" />
+</resources>
