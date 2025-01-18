@@ -94,9 +94,10 @@
         android:id="@+id/button"
         android:layout_width="357dp"
         android:layout_height="55dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="132dp"
         android:text="Next"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/EnterYourPassword" />
 
@@ -104,23 +105,27 @@
         android:id="@+id/newmem"
         android:layout_width="161dp"
         android:layout_height="27dp"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="8dp"
         android:text="New member?"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="631dp" />
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <TextView
         android:id="@+id/passwdid"
         android:layout_width="147dp"
         android:layout_height="34dp"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
         android:text="@string/register_now"
         android:textColor="@color/purple_550"
         android:textSize="24sp"
         app:layout_constraintStart_toEndOf="@+id/newmem"
         app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
